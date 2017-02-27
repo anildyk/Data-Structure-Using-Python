@@ -11,7 +11,7 @@ val = [float(i) for i in lst]
 #To sort in descending order: change "if val[j] < val[m]:" to "if val[j] > val[m]:" 
 for i in range(0, len(val)):
     m = i
-    for j in range(i+1, len(val)-1):
+    for j in range(i+1, len(val)):
         if val[j] < val[m]:
             m=j
     if m != i:
