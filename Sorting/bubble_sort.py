@@ -5,7 +5,7 @@ lst = lst.split(' ')
 values =[] 
 values = [float(i) for i in val ]
 
-#Sort the list "values" by Bubble Sort.
+#Sort the list "values" using Bubble Sort.
 for i in range(0,len(values)):
   for j in range(0,len(values)-i-1):
     if values[j]>values[j+1]:
