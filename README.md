@@ -1,4 +1,4 @@
-# Data-Structure-Using-Python
+# Data Structure Using Python
 
 Implementation of basic data structures and related problems using Python programming language.
 
